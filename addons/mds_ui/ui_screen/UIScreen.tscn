@@ -1,0 +1,12 @@
+[gd_scene format=3 uid="uid://kykwaybyhesg"]
+
+[ext_resource type="Script" uid="uid://c1r6j65hyn0u8" path="res://addons/mds_ui/ui_screen/ui_screen.gd" id="1_j1748"]
+
+[node name="UiScreen" type="Control" unique_id=2038905263]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_j1748")
