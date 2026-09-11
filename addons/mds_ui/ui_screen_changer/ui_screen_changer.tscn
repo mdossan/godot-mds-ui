@@ -1,0 +1,6 @@
+[gd_scene format=3 uid="uid://cfaobj4gdhe1i"]
+
+[ext_resource type="Script" uid="uid://b2qqvojkbum2p" path="res://addons/mds_ui/ui_screen_changer/ui_screen_changer.gd" id="1_1fpu4"]
+
+[node name="UiScreenChanger" type="CanvasLayer" unique_id=1641464546]
+script = ExtResource("1_1fpu4")
