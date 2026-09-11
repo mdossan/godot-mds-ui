@@ -1,0 +1,28 @@
+[gd_scene format=3 uid="uid://he02ec46mw3c"]
+
+[ext_resource type="Script" uid="uid://bto2xfybjmss8" path="res://addons/mds_ui/key_binder/key_binder.gd" id="1_qyppf"]
+[ext_resource type="PackedScene" uid="uid://3ivytw0obm3h" path="res://addons/mds_ui/button/mds_button.tscn" id="2_swfpp"]
+
+[node name="KeyBinder" type="HBoxContainer" unique_id=1275191717]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -6.5
+offset_top = -11.5
+offset_right = 6.5
+offset_bottom = 11.5
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_qyppf")
+
+[node name="ActionLabel" type="Label" parent="." unique_id=1192979928]
+unique_name_in_owner = true
+layout_mode = 2
+text = "Action Name"
+
+[node name="Key" parent="." unique_id=1695576574 instance=ExtResource("2_swfpp")]
+unique_name_in_owner = true
+layout_mode = 2
+text = "Key"
