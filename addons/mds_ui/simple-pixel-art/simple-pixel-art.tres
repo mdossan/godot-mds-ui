@@ -2,6 +2,7 @@
 
 [ext_resource type="StyleBox" uid="uid://br366d4v4l0mv" path="res://addons/mds_ui/simple-pixel-art/button/simple-pixel-art-button-disabled.tres" id="1_0b1p1"]
 [ext_resource type="StyleBox" uid="uid://hvibfmntkyfy" path="res://addons/mds_ui/simple-pixel-art/button/simple-pixel-art-button-hover.tres" id="1_mvca4"]
+[ext_resource type="StyleBox" uid="uid://cc5h8nnfk1anu" path="res://addons/mds_ui/simple-pixel-art/button/simple-pixel-art-button-focused.tres" id="2_baki1"]
 [ext_resource type="StyleBox" uid="uid://5n7nf5564ulo" path="res://addons/mds_ui/simple-pixel-art/button/simple-pixel-art-button-normal.tres" id="2_o7gji"]
 [ext_resource type="StyleBox" uid="uid://cub5wkpvusrfw" path="res://addons/mds_ui/simple-pixel-art/button/simple-pixel-art-button-pressed.tres" id="3_o7gji"]
 [ext_resource type="StyleBox" uid="uid://b08k0aqy2m115" path="res://addons/mds_ui/simple-pixel-art/panel/simple-pixel-art-panel.tres" id="5_g1724"]
@@ -13,9 +14,13 @@ Button/colors/font_outline_color = Color(0, 0, 0, 1)
 Button/constants/outline_size = 8
 Button/font_sizes/font_size = 24
 Button/styles/disabled = ExtResource("1_0b1p1")
+Button/styles/focus = ExtResource("2_baki1")
 Button/styles/hover = ExtResource("1_mvca4")
+Button/styles/hover_pressed = ExtResource("1_mvca4")
 Button/styles/normal = ExtResource("2_o7gji")
 Button/styles/pressed = ExtResource("3_o7gji")
+ButtonSecondary/base_type = &"Button"
+ButtonSecondary/styles/normal = ExtResource("2_baki1")
 Label/colors/font_color = Color(1, 1, 1, 1)
 Label/colors/font_outline_color = Color(0, 0, 0, 1)
 Label/constants/outline_size = 8
